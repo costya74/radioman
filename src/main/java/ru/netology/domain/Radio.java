@@ -9,8 +9,7 @@ public class Radio {
     private int maxStation = 9;
     private boolean on;
 
-    public Radio() {
-    }
+    public Radio() {   }
 
     public Radio(int increaseVolume, int minVolume, int maxVolume, boolean on) {
         this.increaseVolume = increaseVolume;
